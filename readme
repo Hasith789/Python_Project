@@ -1,0 +1,104 @@
+# 🎉 Diwali Sales Data Analysis
+
+This project presents a comprehensive **Exploratory Data Analysis (EDA)** on Diwali Sales Data. It aims to extract actionable insights from customer purchases during the festive season, focusing on sales trends, demographic behavior, and state-wise performance.
+
+---
+
+## 📁 Dataset Information
+
+- **Source**: [Kaggle / Provided CSV file]
+- **File Name**: `Diwali Sales Data.csv`
+- **Encoding**: Latin-1
+- **Fields**: Gender, Age, State, Amount, Orders, and more
+
+---
+
+## 🧪 Project Objectives
+
+- Clean and preprocess raw Diwali sales data
+- Analyze sales by **age group**, **gender**, and **state**
+- Visualize **top-performing age-gender segments**
+- Understand **geographic trends** using bar and line charts
+- Calculate **average order value** by customer segments
+- Detect **outliers** and assess their impact on sales
+- Explore **correlation** between Amount and Orders
+- Provide data-driven insights to enhance marketing and sales strategy
+
+---
+
+## 🛠️ Tools & Libraries
+
+- Python 🐍
+  - `pandas` – data handling
+  - `numpy` – numerical operations
+  - `matplotlib` & `seaborn` – visualization
+  - `scipy.stats.zscore` – (optional for outlier detection)
+- Jupyter / VS Code
+- Excel (for dashboard/report submission)
+
+---
+
+## 🔍 Key Analyses & Visualizations
+
+### ✅ Data Cleaning & Overview
+- Converted "Amount" and "Orders" to numeric
+- Dropped rows with missing values
+- Displayed summary statistics and data structure
+
+### 📊 Sales by Age Group
+- Bar chart showing **total purchase amount** per age group
+- Highlights high-spending demographics (e.g., 26–35)
+
+### 🗺️ Top 10 States by Orders
+- Horizontal bar chart to visualize **order distribution**
+- Reveals sales hotspots and regional trends
+
+### 🧑‍🤝‍🧑 Top Age-Gender Groups (Pie Chart)
+- Combined Age and Gender to find **top 6 segments**
+- Shows key consumer groups contributing to revenue
+
+### 📈 Statewise Sales (Line Plot)
+- Visual representation of total sales across states
+- Identifies the most lucrative regions
+
+### 🧮 Average Order Value by Age & Gender
+- Scatter plot to analyze **spending behavior** by group
+- Offers insights for targeted promotions
+
+### 🔁 Pairplot of Amount & Orders
+- Quick view of relationships between numeric variables
+
+### 🌡️ Correlation Heatmap
+- Shows strength of correlation between Amount and Orders
+
+### ⚠️ Outlier Detection (Boxplot)
+- Identifies **unusually high or low** sales values
+- Helps assess anomalies in sales data
+
+---
+
+## 💡 Insights
+
+- Customers aged **26–35** make the most purchases
+- **Maharashtra, Karnataka, Uttar Pradesh** lead in sales
+- Male and female spending patterns vary slightly, especially in younger age groups
+- Some high-value orders significantly impact sales metrics (outliers)
+- **Amount and Orders** show a strong positive correlation
+
+---
+
+## 📌 Future Scope
+
+- Extend analysis to include **product categories** or **payment methods**
+- Apply **machine learning** for demand forecasting
+- Build a real-time **dashboard** using Tableau or Power BI
+- Analyze **seasonal trends** across years
+
+---
+
+## 📜 How to Run the Project
+
+1. Clone the repository or download the `.py` script
+2. Place the CSV dataset in the same folder
+3. Run the script using Jupyter Notebook or any Python IDE
+4. Make sure to install required libraries:
